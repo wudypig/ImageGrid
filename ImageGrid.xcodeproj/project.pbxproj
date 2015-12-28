@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04753401BEB454F0006CC58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B047533F1BEB454F0006CC58 /* main.m */; };
+		B04753431BEB454F0006CC58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B04753421BEB454F0006CC58 /* AppDelegate.m */; };
+		B04753461BEB454F0006CC58 /* ImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04753451BEB454F0006CC58 /* ImageGridViewController.m */; };
+		B04753491BEB454F0006CC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04753471BEB454F0006CC58 /* Main.storyboard */; };
+		B047534C1BEB454F0006CC58 /* ImageGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B047534A1BEB454F0006CC58 /* ImageGrid.xcdatamodeld */; };
+		B047534E1BEB454F0006CC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B047534D1BEB454F0006CC58 /* Assets.xcassets */; };
+		B04753511BEB454F0006CC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B047534F1BEB454F0006CC58 /* LaunchScreen.storyboard */; };
+		B047535C1BEB45500006CC58 /* ImageGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B047535B1BEB45500006CC58 /* ImageGridTests.m */; };
+		B04753671BEB45500006CC58 /* ImageGridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04753661BEB45500006CC58 /* ImageGridUITests.m */; };
+		B04753761BEC54230006CC58 /* UIView+PropertiesAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = B04753751BEC54230006CC58 /* UIView+PropertiesAccess.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04753581BEB45500006CC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04753331BEB454F0006CC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B047533A1BEB454F0006CC58;
+			remoteInfo = ImageGrid;
+		};
+		B04753631BEB45500006CC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04753331BEB454F0006CC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B047533A1BEB454F0006CC58;
+			remoteInfo = ImageGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B047533B1BEB454F0006CC58 /* ImageGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B047533F1BEB454F0006CC58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B04753411BEB454F0006CC58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B04753421BEB454F0006CC58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B04753441BEB454F0006CC58 /* ImageGridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGridViewController.h; sourceTree = "<group>"; };
+		B04753451BEB454F0006CC58 /* ImageGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGridViewController.m; sourceTree = "<group>"; };
+		B04753481BEB454F0006CC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B047534B1BEB454F0006CC58 /* ImageGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageGrid.xcdatamodel; sourceTree = "<group>"; };
+		B047534D1BEB454F0006CC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04753501BEB454F0006CC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B04753521BEB454F0006CC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04753571BEB45500006CC58 /* ImageGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B047535B1BEB45500006CC58 /* ImageGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGridTests.m; sourceTree = "<group>"; };
+		B047535D1BEB45500006CC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04753621BEB45500006CC58 /* ImageGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04753661BEB45500006CC58 /* ImageGridUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGridUITests.m; sourceTree = "<group>"; };
+		B04753681BEB45500006CC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04753741BEC54230006CC58 /* UIView+PropertiesAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PropertiesAccess.h"; sourceTree = "<group>"; };
+		B04753751BEC54230006CC58 /* UIView+PropertiesAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PropertiesAccess.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04753381BEB454F0006CC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04753541BEB45500006CC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B047535F1BEB45500006CC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04753321BEB454F0006CC58 = {
+			isa = PBXGroup;
+			children = (
+				B047533D1BEB454F0006CC58 /* ImageGrid */,
+				B047535A1BEB45500006CC58 /* ImageGridTests */,
+				B04753651BEB45500006CC58 /* ImageGridUITests */,
+				B047533C1BEB454F0006CC58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B047533C1BEB454F0006CC58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B047533B1BEB454F0006CC58 /* ImageGrid.app */,
+				B04753571BEB45500006CC58 /* ImageGridTests.xctest */,
+				B04753621BEB45500006CC58 /* ImageGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B047533D1BEB454F0006CC58 /* ImageGrid */ = {
+			isa = PBXGroup;
+			children = (
+				B04753411BEB454F0006CC58 /* AppDelegate.h */,
+				B04753421BEB454F0006CC58 /* AppDelegate.m */,
+				B04753441BEB454F0006CC58 /* ImageGridViewController.h */,
+				B04753451BEB454F0006CC58 /* ImageGridViewController.m */,
+				B04753741BEC54230006CC58 /* UIView+PropertiesAccess.h */,
+				B04753751BEC54230006CC58 /* UIView+PropertiesAccess.m */,
+				B04753471BEB454F0006CC58 /* Main.storyboard */,
+				B047534D1BEB454F0006CC58 /* Assets.xcassets */,
+				B047534F1BEB454F0006CC58 /* LaunchScreen.storyboard */,
+				B04753521BEB454F0006CC58 /* Info.plist */,
+				B047534A1BEB454F0006CC58 /* ImageGrid.xcdatamodeld */,
+				B047533E1BEB454F0006CC58 /* Supporting Files */,
+			);
+			path = ImageGrid;
+			sourceTree = "<group>";
+		};
+		B047533E1BEB454F0006CC58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B047533F1BEB454F0006CC58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B047535A1BEB45500006CC58 /* ImageGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				B047535B1BEB45500006CC58 /* ImageGridTests.m */,
+				B047535D1BEB45500006CC58 /* Info.plist */,
+			);
+			path = ImageGridTests;
+			sourceTree = "<group>";
+		};
+		B04753651BEB45500006CC58 /* ImageGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04753661BEB45500006CC58 /* ImageGridUITests.m */,
+				B04753681BEB45500006CC58 /* Info.plist */,
+			);
+			path = ImageGridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B047533A1BEB454F0006CC58 /* ImageGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B047536B1BEB45500006CC58 /* Build configuration list for PBXNativeTarget "ImageGrid" */;
+			buildPhases = (
+				B04753371BEB454F0006CC58 /* Sources */,
+				B04753381BEB454F0006CC58 /* Frameworks */,
+				B04753391BEB454F0006CC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageGrid;
+			productName = ImageGrid;
+			productReference = B047533B1BEB454F0006CC58 /* ImageGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04753561BEB45500006CC58 /* ImageGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B047536E1BEB45500006CC58 /* Build configuration list for PBXNativeTarget "ImageGridTests" */;
+			buildPhases = (
+				B04753531BEB45500006CC58 /* Sources */,
+				B04753541BEB45500006CC58 /* Frameworks */,
+				B04753551BEB45500006CC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04753591BEB45500006CC58 /* PBXTargetDependency */,
+			);
+			name = ImageGridTests;
+			productName = ImageGridTests;
+			productReference = B04753571BEB45500006CC58 /* ImageGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04753611BEB45500006CC58 /* ImageGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04753711BEB45500006CC58 /* Build configuration list for PBXNativeTarget "ImageGridUITests" */;
+			buildPhases = (
+				B047535E1BEB45500006CC58 /* Sources */,
+				B047535F1BEB45500006CC58 /* Frameworks */,
+				B04753601BEB45500006CC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04753641BEB45500006CC58 /* PBXTargetDependency */,
+			);
+			name = ImageGridUITests;
+			productName = ImageGridUITests;
+			productReference = B04753621BEB45500006CC58 /* ImageGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04753331BEB454F0006CC58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "IFIT LTD";
+				TargetAttributes = {
+					B047533A1BEB454F0006CC58 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B04753561BEB45500006CC58 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B047533A1BEB454F0006CC58;
+					};
+					B04753611BEB45500006CC58 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B047533A1BEB454F0006CC58;
+					};
+				};
+			};
+			buildConfigurationList = B04753361BEB454F0006CC58 /* Build configuration list for PBXProject "ImageGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04753321BEB454F0006CC58;
+			productRefGroup = B047533C1BEB454F0006CC58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B047533A1BEB454F0006CC58 /* ImageGrid */,
+				B04753561BEB45500006CC58 /* ImageGridTests */,
+				B04753611BEB45500006CC58 /* ImageGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04753391BEB454F0006CC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04753511BEB454F0006CC58 /* LaunchScreen.storyboard in Resources */,
+				B047534E1BEB454F0006CC58 /* Assets.xcassets in Resources */,
+				B04753491BEB454F0006CC58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04753551BEB45500006CC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04753601BEB45500006CC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04753371BEB454F0006CC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04753761BEC54230006CC58 /* UIView+PropertiesAccess.m in Sources */,
+				B04753461BEB454F0006CC58 /* ImageGridViewController.m in Sources */,
+				B04753431BEB454F0006CC58 /* AppDelegate.m in Sources */,
+				B04753401BEB454F0006CC58 /* main.m in Sources */,
+				B047534C1BEB454F0006CC58 /* ImageGrid.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04753531BEB45500006CC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B047535C1BEB45500006CC58 /* ImageGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B047535E1BEB45500006CC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04753671BEB45500006CC58 /* ImageGridUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04753591BEB45500006CC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B047533A1BEB454F0006CC58 /* ImageGrid */;
+			targetProxy = B04753581BEB45500006CC58 /* PBXContainerItemProxy */;
+		};
+		B04753641BEB45500006CC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B047533A1BEB454F0006CC58 /* ImageGrid */;
+			targetProxy = B04753631BEB45500006CC58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04753471BEB454F0006CC58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04753481BEB454F0006CC58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B047534F1BEB454F0006CC58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04753501BEB454F0006CC58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B04753691BEB45500006CC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B047536A1BEB45500006CC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B047536C1BEB45500006CC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageGrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iFit.ImageGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B047536D1BEB45500006CC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageGrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iFit.ImageGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B047536F1BEB45500006CC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iFit.ImageGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGrid.app/ImageGrid";
+			};
+			name = Debug;
+		};
+		B04753701BEB45500006CC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iFit.ImageGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageGrid.app/ImageGrid";
+			};
+			name = Release;
+		};
+		B04753721BEB45500006CC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageGridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iFit.ImageGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageGrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B04753731BEB45500006CC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageGridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iFit.ImageGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageGrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04753361BEB454F0006CC58 /* Build configuration list for PBXProject "ImageGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04753691BEB45500006CC58 /* Debug */,
+				B047536A1BEB45500006CC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B047536B1BEB45500006CC58 /* Build configuration list for PBXNativeTarget "ImageGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B047536C1BEB45500006CC58 /* Debug */,
+				B047536D1BEB45500006CC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B047536E1BEB45500006CC58 /* Build configuration list for PBXNativeTarget "ImageGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B047536F1BEB45500006CC58 /* Debug */,
+				B04753701BEB45500006CC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04753711BEB45500006CC58 /* Build configuration list for PBXNativeTarget "ImageGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04753721BEB45500006CC58 /* Debug */,
+				B04753731BEB45500006CC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B047534A1BEB454F0006CC58 /* ImageGrid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B047534B1BEB454F0006CC58 /* ImageGrid.xcdatamodel */,
+			);
+			currentVersion = B047534B1BEB454F0006CC58 /* ImageGrid.xcdatamodel */;
+			path = ImageGrid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B04753331BEB454F0006CC58 /* Project object */;
+}
