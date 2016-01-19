@@ -12,14 +12,3 @@
 
 
 @end
-
-#pragma mark
-#pragma mark - UIView Category
-
-@interface UIView (ViewAdjust)
-
-- (void)resizeToWidth:(CGFloat)width;
-
-- (void)resizeToHeight:(CGFloat)height;
-
-@end
