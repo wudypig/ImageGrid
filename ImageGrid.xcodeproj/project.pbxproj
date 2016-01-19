@@ -17,6 +17,8 @@
 		B047535C1BEB45500006CC58 /* ImageGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B047535B1BEB45500006CC58 /* ImageGridTests.m */; };
 		B04753671BEB45500006CC58 /* ImageGridUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04753661BEB45500006CC58 /* ImageGridUITests.m */; };
 		B04753761BEC54230006CC58 /* UIView+PropertiesAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = B04753751BEC54230006CC58 /* UIView+PropertiesAccess.m */; };
+		F54200C31C440FCA0031A0A0 /* ImageGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54200C21C440FCA0031A0A0 /* ImageGridView.m */; };
+		F54200C61C47FF5E0031A0A0 /* ImageViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F54200C51C47FF5E0031A0A0 /* ImageViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		B04753681BEB45500006CC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B04753741BEC54230006CC58 /* UIView+PropertiesAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PropertiesAccess.h"; sourceTree = "<group>"; };
 		B04753751BEC54230006CC58 /* UIView+PropertiesAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PropertiesAccess.m"; sourceTree = "<group>"; };
+		F54200C11C440FCA0031A0A0 /* ImageGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageGridView.h; path = ImageGridView/ImageGridView.h; sourceTree = SOURCE_ROOT; };
+		F54200C21C440FCA0031A0A0 /* ImageGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageGridView.m; path = ImageGridView/ImageGridView.m; sourceTree = SOURCE_ROOT; };
+		F54200C41C47FF5E0031A0A0 /* ImageViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewAttribute.h; sourceTree = "<group>"; };
+		F54200C51C47FF5E0031A0A0 /* ImageViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewAttribute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				B04753421BEB454F0006CC58 /* AppDelegate.m */,
 				B04753441BEB454F0006CC58 /* ImageGridViewController.h */,
 				B04753451BEB454F0006CC58 /* ImageGridViewController.m */,
+				F54200C11C440FCA0031A0A0 /* ImageGridView.h */,
+				F54200C21C440FCA0031A0A0 /* ImageGridView.m */,
+				F54200C41C47FF5E0031A0A0 /* ImageViewAttribute.h */,
+				F54200C51C47FF5E0031A0A0 /* ImageViewAttribute.m */,
 				B04753741BEC54230006CC58 /* UIView+PropertiesAccess.h */,
 				B04753751BEC54230006CC58 /* UIView+PropertiesAccess.m */,
 				B04753471BEB454F0006CC58 /* Main.storyboard */,
@@ -278,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54200C31C440FCA0031A0A0 /* ImageGridView.m in Sources */,
 				B04753761BEC54230006CC58 /* UIView+PropertiesAccess.m in Sources */,
 				B04753461BEB454F0006CC58 /* ImageGridViewController.m in Sources */,
 				B04753431BEB454F0006CC58 /* AppDelegate.m in Sources */,
+				F54200C61C47FF5E0031A0A0 /* ImageViewAttribute.m in Sources */,
 				B04753401BEB454F0006CC58 /* main.m in Sources */,
 				B047534C1BEB454F0006CC58 /* ImageGrid.xcdatamodeld in Sources */,
 			);
